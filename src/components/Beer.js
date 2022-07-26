@@ -22,7 +22,6 @@ function Beer({data, getId}) {
                     currentCountry.map(beer => (
                         <>
                             <NavLink
-
                                 to="/beer"
                                 onClick={() => getId(beer.id)}
                             >
